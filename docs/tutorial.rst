@@ -36,8 +36,16 @@ The final pane "Result" is where jsFiddle creates a page from our code -
 our Hello World will appear here.
 
 At the top of the screen are buttons for managing the Fiddle, and on the
-left hand side are more detailed settings for the Fiddle. You won't need to
-look at these now - they are addressed in the Advanced Usage section.
+left hand side are more detailed settings for the Fiddle.
+
+Activate MooTools
+"""""""""""""""""
+
+On the left-hand side of the page, click "Frameworks and Extensions" to expand 
+the panel. Choose one of the "MooTools" frameworks from the dropdown menu.
+
+You won't need to look at the rest of those options now. They are addressed 
+in the Advanced Usage section.
 
 .. container:: clearer
 

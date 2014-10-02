@@ -48,10 +48,12 @@ All fields are optional. New fiddle setting will be used if no data provided.
    
    * ``panel_html`` accepts only ``0``
    * ``panel_js`` 
+
      * ``0`` - JavaScript
      * ``1`` - CoffeeScript
      * ``2`` - JavaScript 1.7
    * ``panel_css`` 
+
      * ``0`` - CSS
      * ``1`` - SCSS
 

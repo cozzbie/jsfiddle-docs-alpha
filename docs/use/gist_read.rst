@@ -41,8 +41,47 @@ Gist files
       - http://some.url.com/some/file.js
       - http://other.url.com/other_filename.css
     normalize_css: no
+    wrap: b
+    panel_js: 1
+    panel_css: 1
 
 All above fields are optional.
+
+*panel_[html/js/css]*
+   choose language for specific panel
+   
+   * ``panel_html`` accepts only ``0``
+   * ``panel_js`` 
+
+     * ``0`` - JavaScript
+     * ``1`` - CoffeeScript
+     * ``2`` - JavaScript 1.7
+   * ``panel_css`` 
+
+     * ``0`` - CSS
+     * ``1`` - SCSS
+
+*resources*
+   list of external resources
+
+*name*
+   title of the fiddle
+
+*description*
+   description of the fiddle
+
+*normalize_css*
+   yes or no - should normalize.css be loaded before any CSS
+   declarations?
+
+*wrap*
+   set the JS code wrap:
+
+   * *l* - onLoad
+   * *d* - domReady
+   * *h* - no wrap - in <head>
+   * *b* - no wrap - in <body>  
+ 
 
 
 Run in jsFiddle
